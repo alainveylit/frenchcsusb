@@ -1,0 +1,51 @@
+.next-question { text-align: right; }
+#question { min-height: 300px; background: whitesmoke; }
+
+ol.options { background: transparent; min-width: 40%; border-radius: 8px; z-index: -1; }
+ol.options li { height: 50px; border-bottom: 1px gray dotted; list-style: numbers; }
+ol.options li:hover { background: #cef; cursor: question; }
+
+.edit { background-image: url(images/pencil.png); background-size: 18px; background-repeat: no-repeat; padding-left: 24px; }
+.add { background-image: url(images/list-add.png);  background-repeat: no-repeat; padding-left: 24px; }
+.list { background-image: url(images/list.png);  background-repeat: no-repeat; padding-left: 24px; }
+.erase { background-image: url(images/erase.png);  background-repeat: no-repeat; padding-left: 24px; }
+.mail { background-image: url(images/envelope.png);  background-repeat: no-repeat; padding-left: 32px; }
+
+.check, .error { padding-left: 24px; background-repeat: no-repeat; background-image: url(images/check.png); }
+.error { background-image: url(images/error.png); }
+
+
+
+.cocorico { background-image: url(images/cocorico-2.png); background-repeat: no-repeat; background-position: center right;  }
+.perdu { background-image: url(images/perdu.jpeg); background-repeat: no-repeat; background-position: center right; }
+
+
+.image-tip  {  display: none; background-repeat: no-repeat; padding: 100px 0px 100px 150px; 
+					background-size: 300px; width: 500px; height: 300px; border: 0px solid gray; }
+					
+ul.tips li { height: 50xp;   }
+ul.tips li div {  display: none; background-repeat: no-repeat; padding: 100px 0px 100px 150px; 
+					background-size: 300px; width: 500px; height: 300px; border: 0px solid gray; }
+
+.tips a { text-align: right; }
+#langue-au-chat {  height: 140px; padding: 24px 20px;  margin: 0; position: absolute; right: -60px; bottom: 100px;  background-image: url(images/langueauchat.png);  } 
+.au-secours { position: absolute; left: 400px; top: 250px;  background-image: url(images/au-secours.png);  }
+
+.quiz-footer { width: 100%; height: 45px; background: beige; border-top: 12px solid lavender; }
+
+span.response { color: blue; }
+
+	.options { margin: 1em; border: 1px lightgray; padding: 24px 48px; background: rgba(235,235,230,.7); float: left; clear: right; }
+	.answer { font-weight: bold; }
+	.good-response { background: rgba(85, 240, 38, 0.8); border-radius: 12px; padding: 12px; }
+	.bad-response { background: rgba(251, 42, 211, 0.45); border-radius: 12px; padding: 12px; }
+	.fatty { margin-top: 0; }
+	.reponse { color: red; }
+	.blinking {
+		animation: blinker 1s linear infinite;
+	}
+
+	@keyframes blinker {  
+		50% { opacity: 0.0; }
+	}
+

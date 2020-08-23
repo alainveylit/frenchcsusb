@@ -1,0 +1,80 @@
+.navbar-form .form-group { margin: 0 1em; }
+.light-blue { background-color: rgba(220,220,230, 0.58); }
+#chord-container { min-height: 200px; border: 1px solid #7080A0; padding: 12px; margin: 4px 0px; border-radius: 4px; overflow: auto; }
+.icons-list { margin: auto;  padding: 0 12px; }
+
+form .required {
+    font-weight: bold;
+}
+
+form .required label:after {
+    color: #e32;
+    content: "*";
+    display: inline;
+}
+.error-message { color: red; }
+
+.fixed-input ul.list-inline li {
+    width: 250px;
+}
+.fixed-input ul.list-inline li label {
+    width: auto;
+}
+
+.fixed-input input {
+    width: 70%;
+    float: right;
+}
+
+.fixed-input input[type="checkbox"] {
+width: 20%;
+}
+
+.fixed-input .date {
+	padding-left: 1.56em;
+}
+
+.fixed-input div, .fixed-input label {
+    line-height: 2em;
+    overflow: auto;
+    clear: both;
+}
+
+.fixed-input div.input { clear: right; float: inherit; }
+
+.fixed-input label {
+    text-align: right;
+    width: 25%;
+    float: left;
+    padding: 4px 0;
+    overflow: hidden;
+}
+.fixed-input .mceLayout {
+    margin-left: 160px;
+    width: 400px;
+}
+.fixed-input div.textarea {
+   /* float: right;
+    width: 80%;*/
+}
+.fixed-input div.textarea textarea {
+    font-weight: normal;
+    width: inherit;
+}
+.col-lg-6 .fixed-input label { width: 23%; }
+
+.col-lg-6 .fixed-input input  { width: 75%;  }
+
+/* .ui-widget-header { background: transparent; border: none; } */
+.deletion { padding: 4px 12px; background: red; border: 1px solid #a77; border-radius: 6px;  }
+.deletion: hover a{ color: white; }
+
+.flip { cursor: pointer; }
+
+.flipped {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+input[type="number"] { width: 70px;}
